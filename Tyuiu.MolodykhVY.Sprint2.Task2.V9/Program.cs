@@ -42,8 +42,10 @@ namespace Tyuiu.MolodykhVY.Sprint2.Task2.V9
 
             if (res == true)
                 Console.WriteLine("Точка входит в область");
+
             else
                 Console.WriteLine("Точка не входит в область");
+
 
             Console.ReadKey();
         }
