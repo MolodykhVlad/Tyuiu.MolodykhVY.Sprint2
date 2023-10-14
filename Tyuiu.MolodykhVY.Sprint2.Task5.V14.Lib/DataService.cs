@@ -13,9 +13,16 @@ namespace Tyuiu.MolodykhVY.Sprint2.Task5.V14.Lib
         {
             string res = "";
             int temp = 365 % (k + 1);
-            temp -= 1;
 
-           
+            temp -= 1;
+            res = NewMethod(temp);
+
+            return res;
+        }
+
+        private static string NewMethod(int temp)
+        {
+            string res;
 
             switch (temp)
             {
@@ -52,7 +59,6 @@ namespace Tyuiu.MolodykhVY.Sprint2.Task5.V14.Lib
 
             }
 
-            
             return res;
         }
     }
